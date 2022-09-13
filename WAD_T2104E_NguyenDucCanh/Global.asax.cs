@@ -19,7 +19,7 @@ namespace WAD_T2104E_NguyenDucCanh
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DbContexta>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<DbContexta>());
         }
     }
 }

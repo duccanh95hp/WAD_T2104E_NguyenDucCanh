@@ -8,7 +8,7 @@ namespace WAD_T2104E_NguyenDucCanh.Models
 {
     public class DbContexta : DbContext
     {
-        public DbContexta() : base("name:contest")
+        public DbContexta() : base()
         {
 
         }
